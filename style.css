@@ -3,11 +3,13 @@
 p{
   margin: 0;
 }
+
 ul{
   margin: 0;
   padding: 0;
   list-style-type:none;
 }
+
 input,button{
   outline:none;
 }
@@ -17,15 +19,18 @@ input,button{
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header img {
   width: 100%;
 }
+
 .header__link-info {
   font-family: fantasy, cursive;
 }
@@ -35,8 +40,11 @@ input,button{
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
-}
+
+  .header { 
+    text-align: center;
+  }
+
 }
 .main {
   display: block;
@@ -47,22 +55,27 @@ input,button{
 .centered-main-page-element button p::first-letter{
   text-transform: uppercase;  
 }
+
 .task-input__label,.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
   text-transform:capitalize;
 }
+
 .add-form__wrapper {
   display: flex;
 }
+
 .incomplete-tasks,.completed-tasks {
   margin:0;
   padding: 0px;
 }
+
 .task, .section-header {
   list-style:none;
 }
+
 .task__delete-button,.task__edit-button,.add-form__button {
   background: none;
   border: 0px;
@@ -72,6 +85,7 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .task__delete-button:hover,.task__edit-button:hover,.add-form__button:hover {
   color: #3a3a3a;
 }
@@ -86,6 +100,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -98,6 +113,7 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
@@ -107,6 +123,7 @@ input,button{
   display: block;
   margin: 0 0 20px;
 }
+
 .add-form__input {
   width: 318px;
 }
@@ -121,6 +138,7 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
+
 .task > * {
   vertical-align: middle;
 }
@@ -128,20 +146,24 @@ input,button{
 .task > .task-checkbox {
   margin: 0 10px;
 }
+
 .task > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task >    .task-input {
   width: 226px;
 }
+
 .task__delete-button :first-child {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task__delete-button :first-child:hover {
   transform: rotatez(0);
 }
