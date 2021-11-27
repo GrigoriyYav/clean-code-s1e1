@@ -7,11 +7,11 @@ p{
 ul{
   margin: 0;
   padding: 0;
-  list-style-type:none;
+  list-style-type: none;
 }
 
-input,button{
-  outline:none;
+input,button {
+  outline: none;
 }
 /* Basic Style */
 .body {
@@ -35,7 +35,7 @@ input,button{
   font-family: fantasy, cursive;
 }
 
-.header__link-info p::first-letter{
+.header__link-info p::first-letter {
   text-transform: uppercase;  
 }
 
@@ -52,7 +52,7 @@ input,button{
   margin: 0 auto 0;
 }
 
-.centered-main-page-element button p::first-letter{
+.centered-main-page-element button p::first-letter {
   text-transform: uppercase;  
 }
 
@@ -60,7 +60,7 @@ input,button{
   width: 56%;
   display: inline-block;
   flex-grow: 1;
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 
 .add-form__wrapper {
@@ -68,12 +68,12 @@ input,button{
 }
 
 .incomplete-tasks,.completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task, .section-header {
-  list-style:none;
+  list-style: none;
 }
 
 .task__delete-button,.task__edit-button,.add-form__button {
@@ -180,14 +180,14 @@ input,button{
 }
 
 .task .task-input {
-  display:none;
+  display: none;
 }
 
 .task.edit-mode .task-input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .task.edit-mode label {
-  display:none;
+  display: none;
 }
