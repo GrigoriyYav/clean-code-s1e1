@@ -1,3 +1,7 @@
+/* Resetting styles */
+p{
+  margin: 0;
+}
 /* Basic Style */
 body {
   background-color: #f8f8f8;
@@ -17,6 +21,10 @@ body {
   font-family: fantasy, cursive;
 }
 
+.more_inf p::first-letter{
+  text-transform: uppercase;  
+}
+
 @media (max-width:768px) {
   .aaa { text-align: center;
 }
@@ -26,10 +34,15 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
+
+.centered-main-page-element button p::first-letter{
+  text-transform: uppercase;  
+}
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  text-transform:capitalize;
 }
 .task-row-wrapper {
   display: flex;
@@ -54,7 +67,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
 h3,
@@ -73,8 +86,8 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -120,11 +133,11 @@ li >    input[type="text"] {
 }
 button.delete img {
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 button.delete img:hover {
-  transform: rotateZ(0);
+  transform: rotatez(0);
 }
 
 /* Completed */
@@ -134,6 +147,10 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
+.edit{
+  text-transform: capitalize;
+}
+
 ul li input[type=text] {
   display:none;
 }
